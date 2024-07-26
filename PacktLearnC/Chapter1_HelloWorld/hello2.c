@@ -6,15 +6,26 @@
  */
 
 
-
 #include <stdio.h>
 
+
+void printComma() {
+    printf( ", ");
+    return;
+}
+
+
 int main(void)
-
-
 {
-    printf( "Hello, world!\n" );
+    printf( "Hello" );
+
+    printComma();
+
+    printf( "world!\n" );
+
     return 0;
 }
+
+
 
 /* eof */
